@@ -2,11 +2,6 @@
 #include <string>
 #include <fstream>
 
-#define ROUND_CHAR(a) (unsigned char) (0.5 + a)
-#define ROUND_UINT(a) (int) (0.5 + a)
-#define MIN(a,b) a < b? a : b
-#define MAX(a,b) a < b? b : a
-
 using namespace agl;
 using namespace std;
 
